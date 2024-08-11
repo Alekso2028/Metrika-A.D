@@ -1,8 +1,8 @@
 console.log(1);
 
 const button = document.querySelector('button');
-const output = document.querySelector('output');
+const output = document.querySelector('.output');
 
 button.addEventListener('click', function(){
-    output.innerHTML = 'Ты моя буба';
+    output.innerHTML = 'Я тебя люблю';
 });
