@@ -1,11 +1,69 @@
-h1 {
-font-size: 35px;
-color: #c44d51;
+body{
+    font-family: "Manrope", sans-serif;
+    width: 100%;
+background: #f5f5f5;
+}
+.container{
+    margin: 0 auto;
+    box-sizing: border-box;
+width: 1400px;
+background-color: #ffffff;
+padding: 125px;
+}
+.Фото-заголовка{
+    margin-top: 40px;
+    padding-top: 379px;
+    padding-left:40px;
+    margin-top: 30px;
+    height: 500px;
+    width: 1150px;
+    background-image: url(/./Картинки/Фото-заголовка.png);
 
+
+    
+}
+
+.image-text{
+    width:430px;
+font-weight: 400;
+font-size: 20px;
+letter-spacing: -0.03em;
+line-height: 27px;
+
+color: #ffffff;
+}
+
+h1{
+    font-family: Manrope;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: left;
+    letter-spacing: -0.03em;
 
 }
-button {
-font-size: ;
+h2{
+ font-size: 18px;
+ font-weight: 400;
+ line-height: 25px;
+ letter-spacing: -0.03em;
+ text-align: left;
+}
 
+p.deskript{
+    margin-top: 30px;
+font-size: 45px;
+font-weight: 400;
+line-height: 61px;
+letter-spacing: -0.03em;
+text-align: left;
+}
 
+a{
+    display: inline-block;
+    margin-top: 30px;
+padding: 20px 40px;
+border-radius: 5px;
+background-color: #AD1818;
+color: #ffffff;
 }
